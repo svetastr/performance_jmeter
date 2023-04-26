@@ -1,0 +1,40 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1679997278541,110,S01_ACC_01_Launch,200,OK,Thread_Group_Add_Cart_Checkout 1-1,,false,,18220,6019,1,1,null,0,0,0
+1679997278543,59,-72 ping,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,478,393,1,1,http://localhost:8080/actuator/health/ping,43,0,2
+1679997278543,76,-77 store,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,1163,393,1,1,http://localhost:8080/api/v1/store/DEFAULT,45,0,2
+1679997278543,76,-53 localhost,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,460,348,1,1,http://localhost:8080/,76,0,2
+1679997278543,77,-87 p50_price_1,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,529,411,1,1,http://localhost:8080/api/v1/product/50/price/,77,0,2
+1679997278544,76,-90 p1_price_2,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,531,410,1,1,http://localhost:8080/api/v1/product/1/price/,76,0,1
+1679997278543,77,-73 featured_item,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,9311,430,1,1,http://localhost:8080/api/v1/products/group/FEATURED_ITEM?store=DEFAULT&lang=en,77,0,2
+1679997278544,76,-88 p51_price_1,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,531,411,1,1,http://localhost:8080/api/v1/product/51/price/,44,0,2
+1679997278547,74,-93 p52_price_2,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,531,411,1,1,http://localhost:8080/api/v1/product/52/price/,55,0,0
+1679997278546,75,-91 p50_price_2,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,529,411,1,1,http://localhost:8080/api/v1/product/50/price/,56,0,1
+1679997278543,78,-79 content,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,511,379,1,1,http://localhost:8080/api/v1/content/pages/?page=0&count=20&store=DEFAULT&lang=en,59,0,2
+1679997278543,92,-69 header message,404,,Thread_Group_Add_Cart_Checkout 1-1,text,false,,522,363,1,1,http://localhost:8080/api/v1/content/boxes/headerMessage/?lang=en,78,0,2
+1679997278546,89,-78 category,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,1531,427,1,1,http://localhost:8080/api/v1/category/?count=20&page=0&store=DEFAULT&lang=en,42,0,1
+1679997278546,90,-86 p1_price_1,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,531,410,1,1,http://localhost:8080/api/v1/product/1/price/,74,0,1
+1679997278547,91,-92p51_price_2,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,531,411,1,1,http://localhost:8080/api/v1/product/51/price/,73,0,1
+1679997278544,107,-89p52_price_1,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,531,411,1,1,http://localhost:8080/api/v1/product/52/price/,43,0,1
+1679997279692,149,S01_ACC_02_OpenTablesTab,200,OK,Thread_Group_Add_Cart_Checkout 1-1,,false,,10230,3748,1,1,null,0,0,0
+1679997279694,20,-111 store,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,1163,340,1,1,http://localhost:8080/api/v1/store/DEFAULT,20,0,1
+1679997279694,21,-113 content,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,511,379,1,1,http://localhost:8080/api/v1/content/pages/?page=0&count=20&store=DEFAULT&lang=en,21,0,1
+1679997279695,23,-119 manufactures,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,642,375,1,1,http://localhost:8080/api/v1/category/50/manufacturers/?store=DEFAULT&lang=en,23,0,0
+1679997279696,23,-103 ping,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,478,393,1,1,http://localhost:8080/actuator/health/ping,23,0,0
+1679997279696,24,-116 pricep_post,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,531,410,1,1,http://localhost:8080/api/v1/product/1/price/,22,0,1
+1679997279695,25,-112 category_1,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,1531,374,1,1,http://localhost:8080/api/v1/category/?count=20&page=0&store=DEFAULT&lang=en,22,0,0
+1679997279696,24,-112 category_2,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,1531,358,1,1,http://localhost:8080/api/v1/category/?store=DEFAULT&lang=en,23,0,1
+1679997279694,32,-109 header message,404,,Thread_Group_Add_Cart_Checkout 1-1,text,false,,522,363,1,1,http://localhost:8080/api/v1/content/boxes/headerMessage/?lang=en,29,0,1
+1679997279694,35,-108 products,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,2680,386,1,1,http://localhost:8080/api/v1/products/?store=DEFAULT&lang=en&page=0&count=15&category=50,35,0,1
+1679997279697,144,-121 variants,404,,Thread_Group_Add_Cart_Checkout 1-1,text,false,,641,370,1,1,http://localhost:8080/api/v1/category/50/variants/?store=DEFAULT&lang=en,144,0,1
+1679997280912,38,S01_ACC_03_SelectProductTable,200,OK,Thread_Group_Add_Cart_Checkout 1-1,,false,,7747,2924,1,1,null,0,0,0
+1679997280914,25,-128 ping,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,450,340,1,1,http://localhost:8080/actuator/health/ping,25,0,1
+1679997280915,24,-136 store,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,1163,340,1,1,http://localhost:8080/api/v1/store/DEFAULT,24,0,1
+1679997280917,23,-139 category_2,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,511,379,1,1,http://localhost:8080/api/v1/content/pages/?page=0&count=20&store=DEFAULT&lang=en,23,0,1
+1679997280915,25,-137 category_1,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,1531,374,1,1,http://localhost:8080/api/v1/category/?count=20&page=0&store=DEFAULT&lang=en,25,0,0
+1679997280916,30,-129 header message,404,,Thread_Group_Add_Cart_Checkout 1-1,text,false,,522,363,1,1,http://localhost:8080/api/v1/content/boxes/headerMessage/?lang=en,25,0,1
+1679997280914,32,-130 products,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,2602,359,1,1,http://localhost:8080/api/v1/products/1?lang=en&store=DEFAULT,26,0,1
+1679997280915,32,-131 reviews,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,437,359,1,1,http://localhost:8080/api/v1/products/1/reviews?store=DEFAULT,24,0,1
+1679997280916,34,-138 price,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,531,410,1,1,http://localhost:8080/api/v1/product/1/price/,34,0,1
+1679997282009,47,S01_ACC_04_AddTabletoCart,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread_Group_Add_Cart_Checkout 1-1,,true,,4546,820,1,1,null,0,3,1
+1679997282010,27,-141 cart_post,201,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,2273,448,1,1,http://localhost:8080/api/v1/cart/?store=DEFAULT,26,0,1
+1679997282038,20,-144 cart_get,200,,Thread_Group_Add_Cart_Checkout 1-1,text,true,,2273,372,1,1,http://localhost:8080/api/v1/cart/f7201f08dc594f298dde17d705de619d?lang=en,18,0,0
